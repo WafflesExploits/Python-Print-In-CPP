@@ -49,11 +49,13 @@ int main() {
 
    // Example 4: More arguments than placeholders
    print("Only one placeholder: {}", "First", "Second");
-   // Output: Only one placeholder: First [Error: Extra arguments provided]
+   // Output: Only one placeholder: First 
+   // [!] Error: Extra arguments provided
 
    // Example 5: Fewer arguments than placeholders
    print("Missing arguments: {} and {}", "Only one");
-   // Output: Missing arguments: Only one and  [Error: Missing arguments]
+   // Output: Missing arguments: Only one and  
+   // [!] Error: Missing arguments
 
    // Example 6: Escaped braces
    print("Use double braces to include literals: {{}} and replace {}", "this");
@@ -65,7 +67,8 @@ int main() {
 
    // Example 8: No placeholders
    print("This string has no placeholders.", 123);
-   // Output: This string has no placeholders. [Error: Extra arguments provided]
+   // Output: This string has no placeholders.
+   // [!] Error: Extra arguments provided
 
    // Example 9: No arguments
    print("No arguments to replace here.");
