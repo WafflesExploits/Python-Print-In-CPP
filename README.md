@@ -12,12 +12,11 @@ python-print.h merges the best of both printf and cout to simplify formatted out
 6. [Contact](#contact)
 
 ## Key Features:
-
-- Simple & Intuitive syntax: print("Hello, {}!", name); instead of cout << "Hello, " << name << "!".
-- Automatic Formatting: Handles multiple data types seamlessly, similar to Python's f-strings.
-- Lightweight: Dependency-free, utilizing only C-style strings, variadic templates, and the iostream library.
-- Error Handling: Provides clear error messages for mismatched placeholders and arguments.
-- Supports C++14 and above.
+- **Simple & Intuitive Syntax:** `print("Hello, {}!", name);` instead of `std::cout << "Hello, " << name << "!";`.
+- **Automatic Formatting:** Handles multiple data types seamlessly, similar to Python's f-strings.
+- **Lightweight:** Dependency-free, utilizing only C-style strings, variadic templates, and the iostream library.
+- **Error Handling:** Provides clear error messages for mismatched placeholders and arguments.
+- **Supports C++14 and Above:** Ensures compatibility with modern C++ standards.
 
 ## Installation:
 - Copy `python_print.h` into your project directory.
