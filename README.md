@@ -25,7 +25,7 @@ python-print.h merges the best of both printf and cout to simplify formatted out
 
 ## Usage Example
 
-```
+```c++
 #include <iostream>
 #include "python_print.h"
 
