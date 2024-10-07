@@ -47,32 +47,36 @@ int main() {
    print("Age: {}, Pi: {}", age, pi);
    // Output: Age: 30, Pi: 3.14159
 
-   // Example 4: More arguments than placeholders
-   print("Only one placeholder: {}", "First", "Second");
-   // Output: Only one placeholder: First 
-   // [!] Error: Extra arguments provided
-
-   // Example 5: Fewer arguments than placeholders
-   print("Missing arguments: {} and {}", "Only one");
-   // Output: Missing arguments: Only one and  
-   // [!] Error: Missing arguments
-
-   // Example 6: Escaped braces
+   // Example 4: Escaped braces
    print("Use double braces to include literals: {{}} and replace {}", "this");
    // Output: Use double braces to include literals: {} and replace this
 
-   // Example 7: Escaped braces with multiple replacements
+   // Example 5: Escaped braces with multiple replacements
    print("Escaped braces: {{{{ and }}}} and values: {} {}", 100, 200);
    // Output: Escaped braces: {{ and }} and values: 100 200
 
-   // Example 8: No placeholders
+   // Example 6: No arguments
+   print("No arguments to replace here.");
+   // Output: No arguments to replace here.   
+
+     
+   //-- Error Handling --
+   
+   // Example 1: More arguments than placeholders
+   print("Only one placeholder: {}", "First", "Second");
+   // Output: Only one placeholder: First 
+   // [!] Error: Extra arguments provided
+   
+   // Example 2: No placeholders
    print("This string has no placeholders.", 123);
    // Output: This string has no placeholders.
    // [!] Error: Extra arguments provided
 
-   // Example 9: No arguments
-   print("No arguments to replace here.");
-   // Output: No arguments to replace here.
+   // Example 3: Fewer arguments than placeholders
+   print("Missing arguments: {} and {}", "Only one");
+   // Output: Missing arguments: Only one and  
+   // [!] Error: Missing arguments
+
 
    return 0;
 }
