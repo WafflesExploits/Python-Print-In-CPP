@@ -1,7 +1,7 @@
 # Python-Print-In-CPP
 #### -> A lightweight C++ print function that combines the simplicity of printf with the flexibility of cout, enabling intuitive and type-safe formatting with minimal code.
 
-python-print.h merges the best of both printf and cout to simplify formatted output for C++ developers. It allows you to use Python-like print syntax for easier and more intuitive string formatting.
+**`python-print.h` merges the best of both printf and cout to simplify formatted output for C++ developers. It allows you to use Python-like print syntax for easier and more intuitive string formatting.**
 
 ## Table of Contents
 1. [Key Features](#key-features)
