@@ -3,11 +3,12 @@
 
 ## Table of Contents
 1. [Key Features](#key-features)
-2. [Installation](#installation)
-3. [Usage Example](#usage-example)
-4. [Error Handling](#error-handling)
-5. [Contributions](#contributions)
-6. [Contact](#contact)
+2. [Why Create Python-Print-In-CPP When Libraries Like fmt Exist?](#why-create-python-print-in-cpp-when-libraries-like-fmt-exist)
+3. [Installation](#installation)
+4. [Usage Example](#usage-example)
+5. [Error Handling](#error-handling)
+6. [Contributions](#contributions)
+7. [Contact](#contact)
 
 ## Key Features:
 - **Simple & Intuitive Syntax:** `print("Hello, {}!", name);` instead of `std::cout << "Hello, " << name << "!";`.
@@ -15,6 +16,10 @@
 - **Lightweight:** Dependency-free, utilizing only C-style strings, variadic templates, and the iostream library.
 - **Error Handling:** Provides clear error messages for mismatched placeholders and arguments.
 - **Supports C++14 and Above:** Ensures compatibility with modern C++ standards.
+
+## Why Create Python-Print-In-CPP When Libraries Like fmt Exist?
+
+While [fmt](https://github.com/fmtlib/fmt) is a great library, I developed Python-Print-In-CPP as a lightweight alternative for scenarios where minimizing dependencies is crucial, like in malware development. The goal was to create something small, efficient, and easy to integrate, without external libraries or added complexity. It’s perfect for projects where keeping the codebase lean is a priority, while still avoiding the verbosity of cout.
 
 ## Installation:
 - Copy `python_print.h` into your project directory.
