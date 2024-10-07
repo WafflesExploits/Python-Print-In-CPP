@@ -1,5 +1,5 @@
 # Python-Print-In-CPP
-#### -> A lightweight C++ print function that combines the simplicity of printf with the flexibility of cout, enabling intuitive and type-safe formatting with minimal code.
+#### -> A lightweight C++ library offering Python-like syntax for intuitive, type-safe, and minimal-code formatted output. Combines the benefits of printf and cout for easier string formatting.
 
 ## Table of Contents
 1. [Key Features](#key-features)
