@@ -58,9 +58,16 @@ int main() {
    print("No arguments to replace here.");
    // Output: No arguments to replace here.   
 
-     
+   return 0;
+}
+```
+# Error Handling
+- Extra Arguments: If more arguments are provided than placeholders, an error message is displayed.
+- Missing Arguments: If fewer arguments are provided than placeholders, an error message is displayed.
+- Escaped Braces: Use double braces ({{ or }}) to include literal braces in the output.
+
+```c++     
    //-- Error Handling --
-   
    // Example 1: More arguments than placeholders
    print("Only one placeholder: {}", "First", "Second");
    // Output: Only one placeholder: First 
@@ -75,15 +82,7 @@ int main() {
    print("Missing arguments: {} and {}", "Only one");
    // Output: Missing arguments: Only one and  
    // [!] Error: Missing arguments
-
-
-   return 0;
-}
 ```
-# Error Handling
-- Extra Arguments: If more arguments are provided than placeholders, an error message is displayed.
-- Missing Arguments: If fewer arguments are provided than placeholders, an error message is displayed.
-- Escaped Braces: Use double braces ({{ or }}) to include literal braces in the output.
 
 # Contributions
 Contributions are welcome! Please open an issue or submit a pull request for any enhancements or bug fixes.
