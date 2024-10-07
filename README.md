@@ -83,4 +83,4 @@ int main() {
 Contributions are welcome! Please open an issue or submit a pull request for any enhancements or bug fixes.
 
 # Contact
-Created by @WafflesExploits - You can reach me out on my socials :)
+Created by [@WafflesExploits](https://wafflesexploits.github.io/about/) - You can reach me out on my socials :)
